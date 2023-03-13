@@ -39,7 +39,7 @@ public class Drink extends Food {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     System.out.print("Age: ");
     int age = Integer.parseInt(br.readLine());
-    if (age >= AGE) {
+    if (age > AGE) {
       return "э рон дон дон";
     } else {
       return "Приходите позже";
